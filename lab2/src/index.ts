@@ -22,9 +22,9 @@ console.log('Bai 2');
 // 	return pharse + x;
 // }
 
-// let resultL2: number = add();
+// let result: string = add();
 
-// console.log('Bai 3');
+console.log('Bai 3');
 
 // var person: {
 // 	name: string;
@@ -56,7 +56,7 @@ console.log('Bai 4');
 // 	name: 'Typescript',
 // 	age: 11,
 // 	hobbies: ['Sports', 'Cooking'],
-// 	role: Role.AUTHOR, //Error
+// 	role: Role.AUTHOR,
 // 	roletuple: [2, 'author'],
 // };
 
@@ -67,8 +67,8 @@ console.log('Bai 4');
 // }
 
 // person.roletuple.push('admin');
-// person.roletuple[0] = 10; //Error
-// person.roletuple = [0, 'admin']; //Error
+// person.roletuple[0] = 10;
+// person.roletuple = [0, 'admin'];
 
 console.log('Bai 5');
 
@@ -99,11 +99,9 @@ console.log('Bai 5');
 
 console.log('Bai 6');
 
-// //Variable declared and assigned to null
 // var a = null;
 // console.log(a);
 // console.log(typeof a);
-// //Variable declaration without assigning any value to it
 // var b;
 // console.log(b);
 // console.log(typeof a);

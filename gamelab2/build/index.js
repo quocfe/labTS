@@ -19,7 +19,7 @@ function shuffle() {
             return data;
         }));
         let pokemonArr = yield Promise.all(pokemonPromises);
-        let randomPokemon = pokemonArr.sort(() => Math.random() - 0.1);
+        let randomPokemon = pokemonArr.sort(() => Math.random() - 0.3);
         generatorPokemon(randomPokemon);
     });
 }
@@ -27,7 +27,7 @@ function generatorPokemon(data) {
     const pokemonWapper = document.querySelector('.pokemonWrapper');
     const pokemon = data
         .map((pokemon) => `	
-			<div class="pokemon flipped">
+			<div class="pokemon ">
 					<div class="pokemon-card"> 
 							<div class="card-face front"></div>
 							<div class="card-face back">
@@ -37,8 +37,6 @@ function generatorPokemon(data) {
 								class=""
 							/>
 							</div>
-
-						
 							<span class="id">#$${pokemon.id}</span>
 					</div>
 				</div>`)

@@ -83,6 +83,9 @@ body {
 	height: 100%;
 	width: 100%;
 	backface-visibility: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .pokemon.flipped {
@@ -93,10 +96,10 @@ body {
 	background: #273469;
 }
 
-.back {
+/* .back {
 	background: #273469;
 	transform: rotateY(180deg);
-}
+} */
 
 .pokemon .id {
 	position: absolute;

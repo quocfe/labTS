@@ -35,9 +35,10 @@ console.log('Bài 1:');
 // sum(1, 2, '3', 4, 5, 6, 7, 8);
 
 ///-----////
+
 // const hobbies = ['Sports', 'Cooking'];
 // const activehobbies = ['Hiking'];
-// activehobbies.push(hobbies);
+// // activehobbies.push(hobbies);
 // activehobbies.push(hobbies[0], hobbies[1]);
 // activehobbies.push(...hobbies);
 // console.log(activehobbies);
